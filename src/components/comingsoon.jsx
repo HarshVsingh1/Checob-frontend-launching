@@ -38,7 +38,7 @@ export default function Comingsoon() {
 
   
     if(isEmailValid(email)) {
-     const response = await  axios.post('http://localhost:3000/saveemail',data)
+     const response = await  axios.post('https://backend.checob.com/saveemail',data)
                
      openbox("You will be notified very soon" , "success")
     }else{
