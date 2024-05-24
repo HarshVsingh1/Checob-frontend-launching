@@ -4,7 +4,7 @@ import './navbar.css'
 import { Link } from 'react-scroll'
 
 export default function Navbar() {
-  const [menu, setMenu] = useState(true)
+  const [menu, setMenu] = useState(false)
   const [isDesktop, setIsDesktop] = useState(window.innerWidth > 768)
 
   const toggleMenu = () => {
