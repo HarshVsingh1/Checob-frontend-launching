@@ -1,0 +1,62 @@
+.productCardImage {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.productCardImage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cardsContainer {
+    display: flex; 
+    gap: 5px;
+
+}
+
+.cardData {
+    font-family: "Roboto", sans-serif; 
+    font-weight: 300; 
+    font-size: 13px;
+}
+
+.cardDataPrice {
+    color: gray;
+    font-size: 13px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+}
+
+.productButtonContainer {
+    display: flex ;
+    justify-content: center ;
+    padding-top: 50px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .cardData {
+        font-size: 8px;
+    } 
+
+    .cardDataPrice {
+        font-size: 8px;
+    }
+
+    .discoverButton {
+       height: 40px ;
+    }
+
+    .productButtonContainer {
+        padding-top: 25px;
+    }
+}

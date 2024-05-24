@@ -1,0 +1,63 @@
+
+.navbarContainer {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center; 
+    padding: 0px 20px;
+}
+
+.logoContainer {
+    height: 25px;
+}
+
+.navigationContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.searchContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 120px;
+}
+
+.navText {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 12px;
+}
+
+@media screen and (max-width : 768px) {
+    .navbarContainer {
+        padding: 0px;
+        position: relative;
+    }
+
+    .logoContainer {
+        height: 15px;
+    }
+
+    .navText {
+       
+        font-size: 9px;
+      }
+
+      .searchContainer { 
+        width: 70px;
+      }
+
+      .navigationContainer {
+        width: 120px; 
+        transition: transform 0.3s ease-out; /* Add transition for smooth animation */
+        transform: translateX(-200px); 
+        position: absolute;
+        top: 20px;
+      }
+
+      .navigationContainer.active {
+        transform: translateX(0);  /* Move back to the screen */
+    }
+
+}

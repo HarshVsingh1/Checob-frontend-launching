@@ -1,0 +1,22 @@
+.welcomebannerContainer{
+    background-image: url('../assets/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    aspect-ratio: 10 / 4;
+    width: 100%;
+    margin-top: 50px;
+    position: relative;
+}
+
+
+
+.signupContainer {
+    position: absolute; 
+    top: 75%;
+    left: 20%; 
+    transform: translate(-50%, -50%);  
+
+}
+
+
+

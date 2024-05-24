@@ -1,0 +1,126 @@
+.footerContainer {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0px;
+
+}
+
+.footerContainerFirst {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50%;
+  padding-left: 5%;
+}
+
+.footerContainerFirstText {
+    font-family: "Roboto", sans-serif; 
+    font-weight: 400;
+    color: grey;
+    font-size: 12px;
+   
+}
+
+
+.footerContainerSecond {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+
+}
+
+.footerContainerSecondText {
+    font-size: 10px;
+    font-family: "Roboto", sans-serif; 
+    font-weight: 400;
+    color: gray;
+
+}
+
+.footerTextContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.footerStrip {
+    height: 50px;
+    background-color: black; 
+    display: flex;
+    justify-content: space-between; 
+    padding:  0px 30px;
+}
+
+.footerStripText {
+    font-family: "Roboto", sans-serif;  
+    font-weight: 400;
+    color: white; 
+    font-size: 12px; 
+}
+
+.connectLink {
+    display: flex;
+    justify-content: space-evenly;  
+    align-items: center;
+    width: 30%;
+}
+.connectLinkone {
+    display: flex;
+    justify-content: space-evenly;  
+    align-items: center;
+    width: 30%;
+}
+
+/* Existing styles */
+
+/* Media Queries for Mobile Size */
+@media screen and (max-width: 768px) {
+    .footerContainer {
+      flex-direction: column; 
+    }
+  
+    .footerContainerFirst,
+    .footerContainerSecond {
+      width: 100%; 
+      padding: 10px; 
+    }
+  
+    .footerContainerFirstText {
+      font-size: 12px; 
+    }
+  
+    .footerContainerSecondText {
+      font-size: 10px; 
+    }
+  
+    .footerTextContainer {
+      gap: 5px;
+    }
+  
+    .connectLink {
+      width: 50%; 
+      justify-content: flex-start; 
+    }
+
+    .footerStripText { 
+        margin-right: auto;
+        font-size: 8px;
+        
+      }
+
+      .footerStrip {
+        height: 30px;
+      } 
+      
+      .connectLinkone {
+        width: 35px;
+      }
+
+      .connectLink {
+        width: 140px;
+      }
+    .footerStripText:first-child {
+      margin-right: auto; 
+    }
+  }
+  

@@ -1,0 +1,15 @@
+.stripContainer {
+ height: 25px; 
+ background-color: black; 
+ display: flex;
+ justify-content: center; 
+ align-items: center;
+}
+
+.currentText {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 12px; 
+    float: right;
+}

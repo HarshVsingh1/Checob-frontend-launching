@@ -1,0 +1,24 @@
+.strip {
+    margin-bottom: 10px;
+}
+
+.latestDropStrip {
+margin: 10px; 
+display: flex;
+justify-content: space-between;
+
+}
+
+.latestDropStripText {
+    font-size: 10px; 
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    
+}
+
+@media screen and (max-width : 768px){ 
+    .latestDropStripText {
+        font-size: 6px;
+    } 
+    
+}

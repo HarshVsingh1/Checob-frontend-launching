@@ -1,0 +1,108 @@
+.comingsoonBackground {
+    background-image: url('../assets/comingsoon.png');
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.csftext {
+    color: white; 
+    font-size: 35px; 
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+
+}
+
+.csSlogan {
+    font-family: "Roboto", sans-serif; 
+    color: white;
+}
+
+.csEmailbox {
+  height: 250px;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center ;
+  gap: 15px;
+}
+
+.csEmailBoxText {
+    font-family: "Roboto", sans-serif; 
+    font-weight: 500;
+}
+
+.csContainer {
+    display: flex;
+    flex-direction: column;
+    margin:  50px ;
+    gap: 20px;
+    
+    
+}
+
+.csLogoContainer {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+   
+}
+
+.csLogoContainer img {
+ height: 70px;
+}
+
+
+.csTextfiled {
+    width: 300px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .csEmailbox .TextField-root {
+        height: 20px;
+    }
+    .csEmailbox .MuiButton-root { /* Target TextField and Button components within .csEmailbox */
+      width: 200px;
+      height: 40px;  
+    }
+    .comingsoonBackground {
+      height: auto; /* Adjust height for mobile layout */
+    }
+  
+    .csContainer {
+      gap: 10px; /* Reduce gap between elements on mobile */
+      margin: 20px; /* Adjust margin for mobile layout */
+    }
+  
+    .csftext {
+      font-size: 15px; /* Reduce font size for better readability */
+    }
+
+    .csSlogan {
+        font-size: 10px;
+    }
+  
+    .csEmailbox {
+      width: 100%; 
+      height: 150px;
+    }
+  
+    .csEmailBoxText,
+    .TextField-root { /* Target TextField component */
+      font-size: 14px; /* Reduce font size for better readability */
+    }
+  
+    .csLogoContainer img {
+      height: 50px; /* Reduce logo size on mobile */
+    }
+
+    .csTextfiled {
+        width: 200px; 
+    }
+  }
+  
