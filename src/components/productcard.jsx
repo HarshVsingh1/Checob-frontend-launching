@@ -49,7 +49,7 @@ export default function Productcard({data}) {
 
 function Card({data}) {
     return (
-        <div> 
+        <div className='productCardContainer' > 
             {console.log(data)}
                    <div className='productCardImage' >
                      <img src={data.imageurl} />
