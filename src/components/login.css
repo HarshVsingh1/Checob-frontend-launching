@@ -1,0 +1,22 @@
+.loginContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; 
+}
+
+.loginText {
+    color: grey;
+    font-family: "Roboto", sans-serif;
+}
+
+.forgetButton {
+    align-self: flex-start;
+    font-size: small;
+}
+
+.createAccountButton {
+    cursor: pointer;
+font-size: small;
+}

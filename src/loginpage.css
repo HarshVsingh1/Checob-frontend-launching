@@ -1,0 +1,18 @@
+/* loginpage.css */
+
+.loginpage-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    flex-shrink: 0;
+}
